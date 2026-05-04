@@ -46,9 +46,9 @@
         <script>
         var map = L.map('map', {
             zoomControl:false, maxZoom:28, minZoom:1
-        }).fitBounds([[34.872351560154335,137.40077183422798],[37.03849283747265,141.21682445828876]]);
+        }).fitBounds([[35.33727944406656,137.0369914407782],[37.50342072138488,141.28474165288532]]);
         var hash = new L.Hash(map);
-        map.attributionControl.setPrefix('<a href="https://github.com/tomchadwin/qgis2web" target="_blank">qgis2web</a> &middot; <a href="https://leafletjs.com" title="A JS library for interactive maps">Leaflet</a> &middot; <a href="https://qgis.org">QGIS</a>');
+        map.attributionControl.setPrefix('<a href="https://github.com/qgis2web/qgis2web" target="_blank">qgis2web</a> &middot; <a href="https://leafletjs.com" title="A JS library for interactive maps">Leaflet</a> &middot; <a href="https://qgis.org">QGIS</a>');
         var autolinker = new Autolinker({truncate: {length: 30, location: 'smart'}});
         // remove popup's row if "visible-with-data"
         function removeEmptyRowsFromPopupContent(content, feature) {
@@ -221,6 +221,21 @@
                 interactive: true,
             }
                     break;
+                case '1':
+                    return {
+                pane: 'pane_niigata_town_2',
+                opacity: 1,
+                color: 'rgba(224,116,54,0.4)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(255,127,0,0.4)',
+                interactive: true,
+            }
+                    break;
                 default:
                     return {
                 pane: 'pane_niigata_town_2',
@@ -232,7 +247,7 @@
                 weight: 1.0, 
                 fill: true,
                 fillOpacity: 1,
-                fillColor: 'rgba(219,231,129,0.4)',
+                fillColor: 'rgba(228,108,174,0.4)',
                 interactive: true,
             }
                     break;
@@ -369,7 +384,7 @@
                 weight: 1.0, 
                 fill: true,
                 fillOpacity: 1,
-                fillColor: 'rgba(48,187,234,0.4)',
+                fillColor: 'rgba(228,108,174,0.4)',
                 interactive: true,
             }
                     break;
@@ -480,6 +495,21 @@
                 interactive: true,
             }
                     break;
+                case '1':
+                    return {
+                pane: 'pane_toyama_town_6',
+                opacity: 1,
+                color: 'rgba(224,116,54,0.4)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(255,127,0,0.4)',
+                interactive: true,
+            }
+                    break;
                 default:
                     return {
                 pane: 'pane_toyama_town_6',
@@ -491,7 +521,7 @@
                 weight: 1.0, 
                 fill: true,
                 fillOpacity: 1,
-                fillColor: 'rgba(162,63,228,0.4)',
+                fillColor: 'rgba(228,108,174,0.4)',
                 interactive: true,
             }
                     break;
@@ -599,6 +629,21 @@
                 interactive: true,
             }
                     break;
+                case '1':
+                    return {
+                pane: 'pane_yamanashi_town_8',
+                opacity: 1,
+                color: 'rgba(224,116,54,0.4)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(255,127,0,0.4)',
+                interactive: true,
+            }
+                    break;
                 default:
                     return {
                 pane: 'pane_yamanashi_town_8',
@@ -610,7 +655,7 @@
                 weight: 1.0, 
                 fill: true,
                 fillOpacity: 1,
-                fillColor: 'rgba(190,119,225,0.4)',
+                fillColor: 'rgba(228,108,174,0.4)',
                 interactive: true,
             }
                     break;
