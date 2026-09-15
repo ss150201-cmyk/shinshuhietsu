@@ -214,9 +214,6 @@
                         <th scope="row">進捗状況</th>\
                         <td>' + (feature.properties['進捗状況'] !== null ? autolinker.link(String(feature.properties['進捗状況']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
                     </tr>\
-                    <tr>\
-                        <td colspan="2">' + (feature.properties['地名'] !== null ? autolinker.link(String(feature.properties['地名']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
-                    </tr>\
                 </table>';
             var content = removeEmptyRowsFromPopupContent(popupContent, feature);
 			layer.on('popupopen', function(e) {
@@ -381,9 +378,6 @@
                     <tr>\
                         <th scope="row">進捗状況</th>\
                         <td>' + (feature.properties['進捗状況'] !== null ? autolinker.link(String(feature.properties['進捗状況']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
-                    </tr>\
-                    <tr>\
-                        <td colspan="2">' + (feature.properties['地名'] !== null ? autolinker.link(String(feature.properties['地名']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
                     </tr>\
                 </table>';
             var content = removeEmptyRowsFromPopupContent(popupContent, feature);
@@ -550,9 +544,6 @@
                         <th scope="row">進捗状況</th>\
                         <td>' + (feature.properties['進捗状況'] !== null ? autolinker.link(String(feature.properties['進捗状況']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
                     </tr>\
-                    <tr>\
-                        <td colspan="2">' + (feature.properties['地名'] !== null ? autolinker.link(String(feature.properties['地名']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
-                    </tr>\
                 </table>';
             var content = removeEmptyRowsFromPopupContent(popupContent, feature);
 			layer.on('popupopen', function(e) {
@@ -714,9 +705,6 @@
                     <tr>\
                         <th scope="row">進捗状況</th>\
                         <td>' + (feature.properties['進捗状況'] !== null ? autolinker.link(String(feature.properties['進捗状況']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
-                    </tr>\
-                    <tr>\
-                        <td colspan="2">' + (feature.properties['地名'] !== null ? autolinker.link(String(feature.properties['地名']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
                     </tr>\
                 </table>';
             var content = removeEmptyRowsFromPopupContent(popupContent, feature);
